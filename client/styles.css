@@ -1,0 +1,30 @@
+body {
+  background-image: url('http://i.imgur.com/xChy58V.png');
+  background-size: cover;
+}
+
+/* div.board {
+  position: absolute;
+  width: 900px;
+  height: 650px;
+  background: #2c3e50;
+  margin: 0 15%;
+} */
+
+.canvas {
+  background: rgba(44, 62, 80, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.highscore, div.current, div.collisions {
+  color: white;
+}
+
+svg:image {
+  transform: rotate(45deg);
+}
